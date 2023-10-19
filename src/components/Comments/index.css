@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.image {
+  margin-left: 100px;
+}
+
+.NameInput-element {
+  margin-bottom: 20px;
+}
+
+.comment-element {
+  margin-bottom: 20px;
+}
